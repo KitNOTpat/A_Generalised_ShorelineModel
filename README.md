@@ -32,7 +32,7 @@ The model, trained on over **7,000 transects**, demonstrates the potential of ma
 
 ## How to Use
 
-1. Open `interactive_map.html` or visit the GitHub Pages site (if deployed).
+1. visit the GitHub Pages site: https://kitnotpat.github.io/A_Generalised_ShorelineModel/ .
 2. Zoom and pan along the coastline.
 3. Click on a transect to view model predictions and ground-truth data.
 
