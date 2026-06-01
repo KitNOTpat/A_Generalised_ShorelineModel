@@ -1,4 +1,4 @@
-# A Generalised Data-Driven Shoreline Model Trained on the South-East Australian Coastline
+# A Generalized Data-Driven Shoreline Model at the Regional Scale
 
 **Kit Calcraft<sup>1</sup>, Joshua A. Simmons<sup>2</sup>, Lucy A. Marshall<sup>3</sup>, Kristen D. Splinter<sup>1</sup>**  
 <sup>1</sup>Water Research Laboratory, School of Civil and Environmental Engineering, UNSW Sydney  
@@ -53,6 +53,8 @@ Evaluation on unseen sites demonstrates reliable transferability at a regional s
 The model requires a large dataframe containing **all transects** and associated dynamic forcing variables.  
 Each row corresponds to a weekly timestep, and columns include:  
 
+(Yes I know I should've used a xarray, I was impatient and got to deep, lesson learned)
+
 - `date`, `sin_t`, `cos_t` (time encodings)  
 - Shoreline position per transect (e.g. `aus0052-0088`)  
 - Associated wave parameters per transect (e.g. `aus0052-0088_Dp_mean`, `aus0052-0088_Hs_mean`, `aus0052-0088_Hs_peak`, `aus0052-0088_Tp_mean`)  
@@ -77,6 +79,4 @@ For **full training or evaluation**, replace it with the complete dataframe down
 
 If you use this model, code, or outputs, please cite:  
 
-Calcraft, K., Simmons, J.A., Marshall, L.A., & Splinter, K.D. (2025). *A Generalised Data-Driven Shoreline Model at the Regional Scale*. [Manuscript, in review].  
-
-Zenodo data archive: 
+Calcraft, K., Simmons, J. A., Marshall, L. A., & Splinter, K. D. (2026). A generalized data-driven shoreline model at the regional scale. Journal of Geophysical Research: Machine Learning and Computation, 3, e2025JH000989. [https://doi.org/10.1029/2025JH000989]
